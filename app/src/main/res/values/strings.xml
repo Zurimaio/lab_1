@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab_1</string>
+    <string name="name">Name</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="email">Email</string>
+    <string name="Bio">Bio</string>
+    <string name="showProfile">Show Profile</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="edit">Edit</string>
+</resources>
