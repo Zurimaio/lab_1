@@ -12,6 +12,16 @@
         android:paddingRight="16dp"
         android:orientation="vertical"
         tools:context="it.polito.mad.lab_1.editProfile">
+        <Button
+            android:id="@+id/save_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="save_profile"
+            android:text="Save"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
 
         <Button
             android:id="@+id/edit_image"
@@ -21,7 +31,7 @@
             android:onClick="editImage"/>
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editText_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -29,7 +39,7 @@
             android:hint="@string/name" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editText_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -37,7 +47,7 @@
             android:hint="e - m@il"/>
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/editText_bio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
