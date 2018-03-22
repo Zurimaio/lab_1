@@ -55,15 +55,15 @@ public class editProfile extends AppCompatActivity {
     }
 
     public void save_profile(View view){
-        EditText editText_name = (EditText) findViewById(R.id.editText_name);
-        EditText editText_email = (EditText) findViewById(R.id.editText_email);
-        EditText editText_bio = (EditText) findViewById(R.id.editText_bio);
+        EditText editText_name = (EditText) findViewById(R.id.nameEditText);
+        EditText editText_email = (EditText) findViewById(R.id.emailEditText);
+        EditText editText_bio = (EditText) findViewById(R.id.bioEditText);
 
         name = editText_name.getText().toString();
         email = editText_email.getText().toString();
         bio = editText_bio.getText().toString();
 
-        Button save_profile = (Button) findViewById(R.id.save_profile);
+        Button save_profile = (Button) findViewById(R.id.saveProfile);
         save_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
