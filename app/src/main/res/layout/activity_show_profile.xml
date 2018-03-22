@@ -29,21 +29,21 @@
             android:src="@drawable/bonnin" />
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/nameView"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="default_name"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
-            android:id="@+id/email"
+            android:id="@+id/emailView"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="default_email"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <TextView
-            android:id="@+id/bio"
+            android:id="@+id/bioView"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="default_bio"
