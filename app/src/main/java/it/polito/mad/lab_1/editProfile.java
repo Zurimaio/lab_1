@@ -77,6 +77,7 @@ public class editProfile extends AppCompatActivity {
         }catch (Exception e){
             Log.e("Output error", e.getMessage());
         }
+        editProfile.this.finish();
     }
 
     public void editImage(View view){

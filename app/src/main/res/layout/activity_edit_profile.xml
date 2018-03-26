@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:onClick="saveProfile"
-            android:text="Save"
+            android:text="@string/save_button"
             android:textColor="@color/colorPrimaryDark"
             android:textStyle="bold"
             />

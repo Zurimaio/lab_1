@@ -7,4 +7,8 @@
     <string name="showProfile">Show Profile</string>
     <string name="editProfile">Edit Profile</string>
     <string name="edit">Edit</string>
+    <string name="default_name">Your name</string>
+    <string name="default_email">Your e-mail</string>
+    <string name="default_bio">This is a default profile, you can modify it in the edit section</string>
+    <string name="save_button">Save</string>
 </resources>
