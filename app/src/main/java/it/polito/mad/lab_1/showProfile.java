@@ -53,9 +53,21 @@ public class showProfile extends AppCompatActivity {
 
         try {
             jsonObject = new JSONObject(jsonString);
-            nameView.setText(jsonObject.get("name").toString());
-            emailView.setText(jsonObject.get("email").toString());
-            bioView.setText(jsonObject.get("bio").toString());
+            if (jsonObject.get("name").toString().equals("")){
+                nameView.setText(getString(R.string.default_name));
+            }else {
+                nameView.setText(jsonObject.get("name").toString());
+            }
+            if (jsonObject.get("email").toString().equals("")){
+                emailView.setText(getString(R.string.default_email));
+            } else {
+                emailView.setText(jsonObject.get("email").toString());
+            }
+            if (jsonObject.get("bio").toString().equals("")) {
+                bioView.setText(getString(R.string.default_bio));
+            } else {
+                bioView.setText(jsonObject.get("bio").toString());
+            }
         }catch (Exception e){
             Log.e("Error while parsing JSON", e.getMessage());
         }
