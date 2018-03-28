@@ -13,14 +13,6 @@
         android:orientation="vertical"
         tools:context="it.polito.mad.lab_1.showProfile">
 
-        <Button
-            android:id="@+id/buttonn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:text="@string/edit"
-            android:onClick="switchToEdit" />
-
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
@@ -35,7 +27,9 @@
             android:paddingTop="20dp"
             android:paddingBottom="10dp"
             android:text="@string/default_name"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+            />
 
         <TextView
             android:id="@+id/emailView"
