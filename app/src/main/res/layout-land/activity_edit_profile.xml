@@ -38,5 +38,6 @@ android:layout_height="fill_parent">
             android:ems="10"
             android:inputType="textLongMessage"
             android:hint="Bio"/>
+
     </LinearLayout>
 </ScrollView>
