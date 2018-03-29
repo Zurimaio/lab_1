@@ -7,5 +7,9 @@
     <string name="Bio">Bio</string>
     <string name="showProfile">Mostra Profilo</string>
     <string name="editProfile">Modifica Profilo</string>
-    <string name="edit">Modfica</string>
+    <string name="default_name">Il tuo nome</string>
+    <string name="default_email">La tua e-mail</string>
+    <string name="default_bio">Questo è un profilo di default, puoi modificarlo con il pulsante Modifica</string>
+    <string name="showProfileActivity">Il tuo profilo</string>
+    <string name="editProfileActivity">Modifica profilo</string>
 </resources>

@@ -14,14 +14,14 @@
         tools:context="it.polito.mad.lab_1.editProfile">
 
         <Button
-            android:id="@+id/edit_image"
+            android:id="@+id/changeImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/choose_image"
             android:onClick="editImage"/>
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/nameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -29,7 +29,7 @@
             android:hint="@string/name" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -37,7 +37,7 @@
             android:hint="e - m@il"/>
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/bioEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
