@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:orientation="vertical"
-        tools:context="it.polito.mad.lab_1.editProfile">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/changeImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/choose_image"
-            android:onClick="editImage"/>
+            android:onClick="editImage"
+            android:text="@string/choose_image" />
 
         <EditText
             android:id="@+id/nameEditText"
@@ -39,9 +34,9 @@
         <EditText
             android:id="@+id/bioEditText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:ems="10"
             android:inputType="textLongMessage"
-            android:hint="Bio" />
+            android:hint="Bio"/>
     </LinearLayout>
 </ScrollView>
